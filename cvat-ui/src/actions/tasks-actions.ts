@@ -384,7 +384,7 @@ ThunkAction<Promise<void>, {}, {}, AnyAction> {
             name: data.basic.name,
             labels: data.labels,
             z_order: data.advanced.zOrder,
-            image_quality: 70,
+            image_quality: 95,
             use_zip_chunks: data.advanced.useZipChunks,
             use_cache: data.advanced.useCache,
         };

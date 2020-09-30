@@ -27,8 +27,8 @@ const defaultState: SettingsState = {
         showProjections: false,
     },
     workspace: {
-        autoSave: false,
-        autoSaveInterval: 15 * 60 * 1000,
+        autoSave: true,
+        autoSaveInterval: 5 * 60 * 1000,
         aamZoomMargin: 100,
         automaticBordering: false,
         showObjectsTextAlways: false,
